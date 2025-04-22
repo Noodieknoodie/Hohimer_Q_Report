@@ -1,0 +1,656 @@
+{
+  "general": {
+    "capitalMarketsRecap": "The capital markets experienced a significant amount of volatility during the past quarter.  Fixed income performed well with high grade and high yield bonds delivering total returns of 2.7% and 1.2%, respectively.   Equities saw broad based declines with the S&P 500, MSCI World, and Russell 2000 experiencing declines of 4.3%, 3.0%, and 9.5%, respectively.  Commodities saw a strong gain of 7.7% though most of this was lost in the period following the end of the quarter.  We have been positioning for higher levels of volatility in the markets and will be looking to take advantage of the opportunities that present themselves.",
+    "disclaimer": "This Quarterly Investment Report is for informational purposes only and is not investment advice or a solicitation. Information is from sources believed reliable but not guaranteed. Investing involves risk; past performance does not guarantee future results. Holdings and statistics shown are illustrative, subject to change, and may not reflect all client portfolios. Consult your Hohimer Wealth Management advisor for personalized guidance. Market context references may utilize indices including: Bonds (US Aggregate, iShares iBoxx), Equities (S&P 500®, MSCI World, Russell 2000®), Commodities (Bloomberg Commodity). Indices are unmanaged and cannot be invested in directly. Hohimer Wealth Management is a Registered Investment Adviser. © 2025 Hohimer Wealth Management."
+  },
+  "Growth": {
+    "metadata": {
+      "Metadata": "Value",
+      "As Of Date": "2025-03-31T00:00:00",
+      "Portfolio": "GROWTH",
+      "Classification": "GICS Sectors",
+      "Currency": "USD",
+      "Benchmark": "DM INDEX"
+    },
+    "commentary": "The Growth Model seeks to generate attractive, risk-adjusted total returns through a combination of capital appreciation and dividend income. The model invests in equity securities diversified by sector, geography, and market capitalization. Security selection and portfolio construction are driven by a fundamental, bottom-up investment process. The Growth Model maintains a style bias toward securities with higher growth rates or superior quality metrics relative to their sector or the broader market.\n\nThe Growth Model uses the MSCI World Index as a performance and risk management benchmark. This index measures the performance of more than 1,500 large- and mid-cap companies in 23 developed countries, capturing approximately 85% of the free float-adjusted market capitalization in each country. The index is market cap weighted, and its country and sector allocations evolve over time in response to differences in market performance and capital markets activity.\n\nRisk management plays a key role in portfolio construction and monitoring. Exposures across geography, sector, style factor, and market cap are monitored to ensure they remain within our risk tolerance guidelines. All investments involve risk, including possible loss of principal. Economic topics that could negatively impact returns include weak growth, rising interest rates, and high inflation. Investments in foreign securities involve additional risks, such as currency fluctuations, as well as economic and political uncertainty. Investments in small and/or newer companies are subject to further risks, as these securities can be especially volatile in the short term.\n",
+    "topTenHoldings": [
+      {
+        "rank": 1,
+        "name": "MICROSOFT CORP",
+        "weight": 3.0
+      },
+      {
+        "rank": 2,
+        "name": "NVIDIA CORP",
+        "weight": 2.8
+      },
+      {
+        "rank": 3,
+        "name": "VISA INC-CLASS A SHARES",
+        "weight": 2.1
+      },
+      {
+        "rank": 4,
+        "name": "SHERWIN-WILLIAMS CO/THE",
+        "weight": 2.1
+      },
+      {
+        "rank": 5,
+        "name": "BERKSHIRE HATHAWAY INC-CL B",
+        "weight": 2.1
+      },
+      {
+        "rank": 6,
+        "name": "AMERICAN EXPRESS CO",
+        "weight": 2.1
+      },
+      {
+        "rank": 7,
+        "name": "VICI PROPERTIES INC",
+        "weight": 2.1
+      },
+      {
+        "rank": 8,
+        "name": "CISCO SYSTEMS INC",
+        "weight": 2.1
+      },
+      {
+        "rank": 9,
+        "name": "BAKER HUGHES CO",
+        "weight": 2.1
+      },
+      {
+        "rank": 10,
+        "name": "NEXTERA ENERGY INC",
+        "weight": 2.0
+      }
+    ],
+    "regionalAllocation": [
+      {
+        "region": "North America",
+        "holdings": 61,
+        "weight": 90
+      },
+      {
+        "region": "Western Europe",
+        "holdings": 5,
+        "weight": 6.1
+      },
+      {
+        "region": "Asia Pacific",
+        "holdings": 2,
+        "weight": 2.5
+      },
+      {
+        "region": "South & Central America",
+        "holdings": 1,
+        "weight": 1.4
+      },
+      {
+        "region": "Africa / Middle East",
+        "holdings": 0,
+        "weight": 0
+      }
+    ],
+    "metrics": {
+      "portfolio": {
+        "Market Value(%)": 100,
+        "Div Yld": 1.8,
+        "P/E": 22.5,
+        "P/CF": 15.6,
+        "P/B": 4.3,
+        "Debt/Equity": 117.4,
+        "Current Ratio": 1.4,
+        "ROE": 20.6
+      },
+      "benchmark": {
+        "Market Value(%)": 100,
+        "Div Yld": 2.3,
+        "P/E": 20.1,
+        "P/CF": 14.8,
+        "P/B": 3.0,
+        "Debt/Equity": 140.2,
+        "Current Ratio": 1.2,
+        "ROE": 14.8
+      },
+      "difference": {
+        "Market Value(%)": 0,
+        "Div Yld": -0.51,
+        "P/E": 2.5,
+        "P/CF": 0.81,
+        "P/B": 1.2,
+        "Debt/Equity": -22.8,
+        "Current Ratio": 0.17,
+        "ROE": 5.8
+      }
+    },
+    "sectors": [
+      {
+        "sector": "Sector Name",
+        "total": "New Total (%)",
+        "diff": "Diff (%)"
+      },
+      {
+        "sector": "Financials",
+        "total": 17.0,
+        "diff": 1.0
+      },
+      {
+        "sector": "Healthcare",
+        "total": 11.5,
+        "diff": -0.5
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "total": 11.0,
+        "diff": 0
+      },
+      {
+        "sector": "Real Estate",
+        "total": 2,
+        "diff": 0
+      },
+      {
+        "sector": "Technology",
+        "total": 24.0,
+        "diff": 1.0
+      },
+      {
+        "sector": "Utilities",
+        "total": 3,
+        "diff": -1
+      },
+      {
+        "sector": "Industrials",
+        "total": 10,
+        "diff": 0
+      },
+      {
+        "sector": "Staples",
+        "total": 5.5,
+        "diff": -0.5
+      },
+      {
+        "sector": "Energy",
+        "total": 3.5,
+        "diff": -1.0
+      },
+      {
+        "sector": "Materials",
+        "total": 4,
+        "diff": 2
+      },
+      {
+        "sector": "Communications",
+        "total": 8.5,
+        "diff": -1
+      }
+    ],
+    "securitiesAdded": [
+      "Blackrock",
+      "Chubb",
+      "Schwab",
+      "Bank of America",
+      "Eli Lilly",
+      "Novo Nordisk",
+      "AstraZeneca",
+      "Toyota",
+      "TJX",
+      "Lululemon",
+      "ASML",
+      "Advanced Micro",
+      "Arista Networks",
+      "Amphenol",
+      "Intuit",
+      "Motorola Solutions",
+      "Synopsys",
+      "Qualcomm",
+      "Sea",
+      "Live Nation",
+      "Pinterest",
+      "Sempra",
+      "Steel Dynamics",
+      "Vulcan Materials",
+      "Uber",
+      "Eaton",
+      "WW Grainger",
+      "AMETEK",
+      "Vertiv",
+      "Cheniere Energy",
+      "Post Holdings"
+    ],
+    "securitiesRemoved": [
+      "Interactive Brokers",
+      "Square",
+      "United Health",
+      "Adobe",
+      "Salesforce",
+      "Amdocs",
+      "Disney",
+      "First Energy",
+      "Airbus",
+      "L3 Harris",
+      "Haliburton"
+    ]
+  },
+  "Core": {
+    "metadata": {
+      "Metadata": "Value",
+      "As Of Date": "2025-03-31T00:00:00",
+      "Portfolio": "CORE",
+      "Classification": "GICS Sectors",
+      "Currency": "USD",
+      "Benchmark": "DM INDEX"
+    },
+    "commentary": "The Core Model seeks to generate attractive risk-adjusted total returns through a combination of capital appreciation and dividend income.  The Model invests in equity securities that are diversified by sector, geography, and market capitalization.  Security selection and portfolio construction are driven by a fundamental, bottom-up investment process.  The Core Model has a style bias to securities that have lower valuations relative to their sector or the broader market.\n\nThe Core Model uses the MSCI World Index as a performance and risk management benchmark.  The index measures the performance of over 1,500 large and midcap companies in 23 developed countries.  It captures approximately 85% of the free float-adjusted market cap of each country in the index.  This index is market cap weighted and its country and sector weightings change over time because of the differences in performance of each country’s equity market and capital markets activity.\n\nRisk management plays a key role in portfolio construction and monitoring.  Exposures to geography, sector, style factor and market cap are monitored to ensure they are within our risk tolerance guidelines.   All investments involve risks, including possible loss of principal.  Economic risks that could negatively impact returns include weak economic growth, rising interest rates and high levels of inflation.  Investments in foreign securities involve special risks, including currency fluctuations and economic as well as political uncertainty.  Investments in small and/or relatively new companies involve additional risks, as the price of these securities can be volatile, especially over the short term.",
+    "topTenHoldings": [
+      {
+        "rank": 1,
+        "name": "EXPEDIA GROUP INC",
+        "weight": 2.0
+      },
+      {
+        "rank": 2,
+        "name": "ELECTRONIC ARTS INC",
+        "weight": 2.0
+      },
+      {
+        "rank": 3,
+        "name": "SEMPRA",
+        "weight": 2.0
+      },
+      {
+        "rank": 4,
+        "name": "NEWMONT CORP",
+        "weight": 2.0
+      },
+      {
+        "rank": 5,
+        "name": "SCHLUMBERGER LTD",
+        "weight": 2.0
+      },
+      {
+        "rank": 6,
+        "name": "AMERIPRISE FINANCIAL INC",
+        "weight": 2.0
+      },
+      {
+        "rank": 7,
+        "name": "AMERICAN ELECTRIC POWER",
+        "weight": 2.0
+      },
+      {
+        "rank": 8,
+        "name": "TARGET CORP",
+        "weight": 1.9
+      },
+      {
+        "rank": 9,
+        "name": "BARCLAYS PLC",
+        "weight": 1.9
+      },
+      {
+        "rank": 10,
+        "name": "PINTEREST INC- CLASS A",
+        "weight": 1.9
+      }
+    ],
+    "regionalAllocation": [
+      {
+        "region": "North America",
+        "holdings": 92.4,
+        "weight": 76.5
+      },
+      {
+        "region": "Western Europe",
+        "holdings": 6.3,
+        "weight": 14.6
+      },
+      {
+        "region": "Asia Pacific",
+        "holdings": 1.3,
+        "weight": 8.3
+      },
+      {
+        "region": "South & Central America",
+        "holdings": 0,
+        "weight": 0.29
+      },
+      {
+        "region": "Africa / Middle East",
+        "holdings": 0,
+        "weight": 0.22
+      }
+    ],
+    "metrics": {
+      "portfolio": {
+        "Market Value (%)": 100,
+        "Div Yld": 2.5,
+        "P/E": 15.3,
+        "P/CF": 11.2,
+        "ROE": 17.8,
+        "Sales Gr": 5.9
+      },
+      "benchmark": {
+        "Market Value (%)": 100,
+        "Div Yld": 2.3,
+        "P/E": 20.1,
+        "P/CF": 14.8,
+        "ROE": 14.8,
+        "Sales Gr": 3.8
+      },
+      "difference": {
+        "Market Value (%)": 0,
+        "Div Yld": 0.24,
+        "P/E": -4.8,
+        "P/CF": -3.6,
+        "ROE": 2.9,
+        "Sales Gr": 2.1
+      }
+    },
+    "sectors": [
+      {
+        "sector": "Sector Name",
+        "total": "New Total (%)",
+        "diff": "Diff (%)"
+      },
+      {
+        "sector": "Financials",
+        "total": 14.0,
+        "diff": -1.5
+      },
+      {
+        "sector": "Healthcare",
+        "total": 10.5,
+        "diff": -1.5
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "total": 10,
+        "diff": 0.5
+      },
+      {
+        "sector": "Real Estate",
+        "total": 3,
+        "diff": 0
+      },
+      {
+        "sector": "Technology",
+        "total": 24.0,
+        "diff": 2.5
+      },
+      {
+        "sector": "Utilities",
+        "total": 4,
+        "diff": 0
+      },
+      {
+        "sector": "Industrials",
+        "total": 9.5,
+        "diff": 0
+      },
+      {
+        "sector": "Staples",
+        "total": 9.5,
+        "diff": 0
+      },
+      {
+        "sector": "Energy",
+        "total": 4,
+        "diff": 0
+      },
+      {
+        "sector": "Materials",
+        "total": 3.5,
+        "diff": 0
+      },
+      {
+        "sector": "Communications",
+        "total": 8,
+        "diff": 0
+      }
+    ],
+    "securitiesAdded": [
+      "T Rowe Price",
+      "JP Morgan",
+      "Morgan Stanley",
+      "Visa",
+      "Merck",
+      "Molina",
+      "Gartner",
+      "Microsoft",
+      "Nvidia",
+      "Arista",
+      "ASML",
+      "Intuit",
+      "Canadian NR",
+      "Canadian National Railway",
+      "Nestle",
+      "Unilever",
+      "Schlumberger"
+    ],
+    "securitiesRemoved": [
+      "Capital One",
+      "Citigroup",
+      "Brookfield",
+      "Synchrony Financial",
+      "Bristol Myers",
+      "Neurocrine",
+      "United Health",
+      "Check Point",
+      "Cisco",
+      "Fiserv",
+      "Oracle",
+      "Rio Tinto",
+      "RTX",
+      "Constellation",
+      "Halliburton"
+    ]
+  },
+  "SmallMid": {
+    "metadata": {
+      "Metadata": "Value",
+      "As Of Date": "2025-03-31T00:00:00",
+      "Portfolio": "CORE",
+      "Classification": "-",
+      "Currency": "USD",
+      "Benchmark": "Russell 2000"
+    },
+    "commentary": "The Small Cap Model seeks to generate attractive risk-adjusted total returns through a combination of capital appreciation and dividend income.  The Model invests in equity securities that are diversified by sector, geography, and market capitalization.  Security selection and portfolio construction are driven by a fundamental, bottom-up investment process.  The Small Cap Model has a style bias to securities that have lower valuations or higher quality metrics relative to their sector or the broader market. \n\nThe Small Cap Model uses the Russell 2000 as a performance and risk management benchmark.  The Russell 2000 of the smallest 2000 companies in the Russell 3000 Index.  This index is market cap weighted and its individual company and sector weightings change over time.  All investments involve risks, including possible loss of principal.  Economic risks that could negatively impact returns include weak economic growth, rising interest rates and high levels of inflation.  Investments in foreign securities involve special risks, including currency fluctuations and economic as well as political uncertainty.  Investments in small and/or relatively new companies involve additional risks, as the price of these securities can be volatile, especially over the short term.   ",
+    "topTenHoldings": [
+      {
+        "rank": 1,
+        "name": "BERRY GLOBAL GROUP INC",
+        "weight": 2.3
+      },
+      {
+        "rank": 2,
+        "name": "SILGAN HOLDINGS INC",
+        "weight": 2.1
+      },
+      {
+        "rank": 3,
+        "name": "ANI PHARMACEUTICALS INC",
+        "weight": 2.0
+      },
+      {
+        "rank": 4,
+        "name": "LOUISIANA-PACIFIC CORP",
+        "weight": 1.9
+      },
+      {
+        "rank": 5,
+        "name": "PALOMAR HOLDINGS INC",
+        "weight": 1.8
+      },
+      {
+        "rank": 6,
+        "name": "OSI SYSTEMS INC",
+        "weight": 1.8
+      },
+      {
+        "rank": 7,
+        "name": "CATALYST PHARMACEUTICALS INC",
+        "weight": 1.8
+      },
+      {
+        "rank": 8,
+        "name": "ALKERMES PLC",
+        "weight": 1.7
+      },
+      {
+        "rank": 9,
+        "name": "AMEDISYS INC",
+        "weight": 1.7
+      },
+      {
+        "rank": 10,
+        "name": "MUELLER INDUSTRIES INC",
+        "weight": 1.6
+      }
+    ],
+    "metrics": {
+      "portfolio": {
+        "Market Value (%)": 100,
+        "Div Yld": 2.7,
+        "P/E": 12.5,
+        "P/CF": 8.8,
+        "ROE": 12.4,
+        "Sales Gr": 5.9
+      },
+      "benchmark": {
+        "Market Value (%)": 100,
+        "Div Yld": 3.0,
+        "P/E": 46.0,
+        "P/CF": 12.5,
+        "ROE": 0.31,
+        "Sales Gr": 0.84
+      },
+      "difference": {
+        "Market Value (%)": 0,
+        "Div Yld": -0.31,
+        "P/E": -53.4,
+        "P/CF": -3.6,
+        "ROE": 12.1,
+        "Sales Gr": 5.0
+      }
+    }
+  },
+  "Alternatives": {
+    "metadata": {
+      "Metadata": "Value",
+      "As Of Date": "2025-03-31T00:00:00",
+      "Portfolio": "ALTERNATIVES",
+      "Classification": "-",
+      "Currency": "USD",
+      "Benchmark": "-"
+    },
+    "commentarySections": [
+      {
+        "label": "Nuveen CLO Issuance Fund LP",
+        "commentary": "Performance results for the first quarter have not been released, so these comments refer to the fourth quarter of 2024. Fixed income securities performed poorly during the period with the US Aggregate Index declining 4.3% as the US 10-year Treasury yield rose from 3.79% to 4.57%. The Nuveen CLO Issuance Fund delivered a total return of 0.98% during the quarter, comprised of a 6.41% distribution offset by a 5.43% price decline. The fund continues to meet our expectations with a 13.8% net IRR since its inception as 12/31/25."
+      },
+      {
+        "label": "The US Affordable Housing Fund",
+        "commentary": "We continue to work with our partner Skyline to lower the cost of the homes that will be delivered to the River Ranch project. Our goal is to deliver homes that are very price competitive to both new and existing homes in the area. While an economic downturn could reduce the demand for new homes, we believe there will continue to be adequate demand in Oroville given the supply-constrained market."
+      },
+      {
+        "label": "Beacon 2 Fund",
+        "commentary": "The fund is completing the change of the general partner to Usonia Partners, LLC. We will be receiving the year end audit later this month. Given the rise in interest rates and cap rates since we invested in the fund, we are anticipating a decline in the fund’s value in the near term. But we expect these values to recover due to the high quality of these assets and the strong demand for affordable housing."
+      }
+    ]
+  },
+  "StructuredNotes": {
+    "metadata": {
+      "Metadata": "Value",
+      "As Of Date": "2025-03-31T00:00:00",
+      "Portfolio": "STRUCTURED NOTES",
+      "Classification": "-",
+      "Currency": "USD",
+      "Benchmark": "-"
+    },
+    "commentary": "Our structured note program continues to grow and there were 10 notes outstanding at the end of the quarter. The specific notes are detailed below. We believe these notes offer an attractive risk/reward relationship given their relatively high yields and short maturities. The chart below shows the notes that were outstanding as of March 31, 2025. Please contact your Advisor if you would like to receive additional information on any of the notes.",
+    "notes": [
+      {
+        "Pricing Date": "Friday April 18, 2025",
+        "Bank": "UBS",
+        "Ticker": "EXPE US",
+        "Short Name": "EXPEDIA GROUP IN",
+        "GICS Sector": "Consumer Discretionary",
+        "Coupon": 0.11
+      },
+      {
+        "Pricing Date": "Tuesday May 6, 2025",
+        "Bank": "JPM",
+        "Ticker": "CVS US",
+        "Short Name": "CVS HEALTH CORP",
+        "GICS Sector": "Health Care",
+        "Coupon": 0.1
+      },
+      {
+        "Pricing Date": "Saturday September 6, 2025",
+        "Bank": "UBS",
+        "Ticker": "DG US",
+        "Short Name": "DOLLAR GENERAL C",
+        "GICS Sector": "Consumer Staples",
+        "Coupon": 0.11
+      },
+      {
+        "Pricing Date": "Saturday October 25, 2025",
+        "Bank": "JPM",
+        "Ticker": "HAL US",
+        "Short Name": "HALLIBURTON CO",
+        "GICS Sector": "Energy",
+        "Coupon": 0.1
+      },
+      {
+        "Pricing Date": "Friday December 5, 2025",
+        "Bank": "Credit Agricole",
+        "Ticker": "PINS US",
+        "Short Name": "PINTEREST INC -A",
+        "GICS Sector": "Communication Services",
+        "Coupon": 0.08
+      },
+      {
+        "Pricing Date": "Wednesday December 17, 2025",
+        "Bank": "UBS",
+        "Ticker": "MRK US",
+        "Short Name": "MERCK & CO",
+        "GICS Sector": "Health Care",
+        "Coupon": 0.07
+      },
+      {
+        "Pricing Date": "Friday January 9, 2026",
+        "Bank": "BNP",
+        "Ticker": "LYFT US",
+        "Short Name": "LYFT INC-A",
+        "GICS Sector": "Industrials",
+        "Coupon": 0.12
+      },
+      {
+        "Pricing Date": "Friday January 9, 2026",
+        "Bank": "Soc Gen",
+        "Ticker": "LYFT US",
+        "Short Name": "LYFT INC-A",
+        "GICS Sector": "Industrials",
+        "Coupon": 0.07
+      },
+      {
+        "Pricing Date": "Friday February 13, 2026",
+        "Bank": "UBS",
+        "Ticker": "AES US",
+        "Short Name": "AES CORP",
+        "GICS Sector": "Utilities",
+        "Coupon": 0.11
+      },
+      {
+        "Pricing Date": "Thursday March 19, 2026",
+        "Bank": "Soc Gen",
+        "Ticker": "TGT US",
+        "Short Name": "TARGET CORP",
+        "GICS Sector": "Consumer Staples",
+        "Coupon": 0.09
+      }
+    ]
+  }
+}

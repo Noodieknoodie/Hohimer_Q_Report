@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "Metadata": "Value",
+    "As Of Date": "2025-03-31T00:00:00",
+    "Portfolio": "CORE",
+    "Classification": "GICS Sectors",
+    "Currency": "USD",
+    "Benchmark": "DM INDEX"
+  },
+  "commentary": "The Core Model seeks to generate attractive risk-adjusted total returns through a combination of capital appreciation and dividend income.  The Model invests in equity securities that are diversified by sector, geography, and market capitalization.  Security selection and portfolio construction are driven by a fundamental, bottom-up investment process.  The Core Model has a style bias to securities that have lower valuations relative to their sector or the broader market.\n\nThe Core Model uses the MSCI World Index as a performance and risk management benchmark.  The index measures the performance of over 1,500 large and midcap companies in 23 developed countries.  It captures approximately 85% of the free float-adjusted market cap of each country in the index.  This index is market cap weighted and its country and sector weightings change over time because of the differences in performance of each country’s equity market and capital markets activity.\n\nRisk management plays a key role in portfolio construction and monitoring.  Exposures to geography, sector, style factor and market cap are monitored to ensure they are within our risk tolerance guidelines.   All investments involve risks, including possible loss of principal.  Economic risks that could negatively impact returns include weak economic growth, rising interest rates and high levels of inflation.  Investments in foreign securities involve special risks, including currency fluctuations and economic as well as political uncertainty.  Investments in small and/or relatively new companies involve additional risks, as the price of these securities can be volatile, especially over the short term.",
+  "topTenHoldings": [
+    {
+      "rank": 1,
+      "name": "EXPEDIA GROUP INC",
+      "weight": 2.0
+    },
+    {
+      "rank": 2,
+      "name": "ELECTRONIC ARTS INC",
+      "weight": 2.0
+    },
+    {
+      "rank": 3,
+      "name": "SEMPRA",
+      "weight": 2.0
+    },
+    {
+      "rank": 4,
+      "name": "NEWMONT CORP",
+      "weight": 2.0
+    },
+    {
+      "rank": 5,
+      "name": "SCHLUMBERGER LTD",
+      "weight": 2.0
+    },
+    {
+      "rank": 6,
+      "name": "AMERIPRISE FINANCIAL INC",
+      "weight": 2.0
+    },
+    {
+      "rank": 7,
+      "name": "AMERICAN ELECTRIC POWER",
+      "weight": 2.0
+    },
+    {
+      "rank": 8,
+      "name": "TARGET CORP",
+      "weight": 1.9
+    },
+    {
+      "rank": 9,
+      "name": "BARCLAYS PLC",
+      "weight": 1.9
+    },
+    {
+      "rank": 10,
+      "name": "PINTEREST INC- CLASS A",
+      "weight": 1.9
+    }
+  ],
+  "regionalAllocation": [
+    {
+      "region": "North America",
+      "holdings": 92.4,
+      "weight": 76.5
+    },
+    {
+      "region": "Western Europe",
+      "holdings": 6.3,
+      "weight": 14.6
+    },
+    {
+      "region": "Asia Pacific",
+      "holdings": 1.3,
+      "weight": 8.3
+    },
+    {
+      "region": "South & Central America",
+      "holdings": 0,
+      "weight": 0.29
+    },
+    {
+      "region": "Africa / Middle East",
+      "holdings": 0,
+      "weight": 0.22
+    }
+  ],
+  "metrics": {
+    "portfolio": {
+      "Market Value (%)": 100,
+      "Div Yld": 2.5,
+      "P/E": 15.3,
+      "P/CF": 11.2,
+      "ROE": 17.8,
+      "Sales Gr": 5.9
+    },
+    "benchmark": {
+      "Market Value (%)": 100,
+      "Div Yld": 2.3,
+      "P/E": 20.1,
+      "P/CF": 14.8,
+      "ROE": 14.8,
+      "Sales Gr": 3.8
+    },
+    "difference": {
+      "Market Value (%)": 0,
+      "Div Yld": 0.24,
+      "P/E": -4.8,
+      "P/CF": -3.6,
+      "ROE": 2.9,
+      "Sales Gr": 2.1
+    }
+  },
+  "sectors": [
+    {
+      "sector": "Sector Name",
+      "total": "New Total (%)",
+      "diff": "Diff (%)"
+    },
+    {
+      "sector": "Financials",
+      "total": 14.0,
+      "diff": -1.5
+    },
+    {
+      "sector": "Healthcare",
+      "total": 10.5,
+      "diff": -1.5
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "total": 10,
+      "diff": 0.5
+    },
+    {
+      "sector": "Real Estate",
+      "total": 3,
+      "diff": 0
+    },
+    {
+      "sector": "Technology",
+      "total": 24.0,
+      "diff": 2.5
+    },
+    {
+      "sector": "Utilities",
+      "total": 4,
+      "diff": 0
+    },
+    {
+      "sector": "Industrials",
+      "total": 9.5,
+      "diff": 0
+    },
+    {
+      "sector": "Staples",
+      "total": 9.5,
+      "diff": 0
+    },
+    {
+      "sector": "Energy",
+      "total": 4,
+      "diff": 0
+    },
+    {
+      "sector": "Materials",
+      "total": 3.5,
+      "diff": 0
+    },
+    {
+      "sector": "Communications",
+      "total": 8,
+      "diff": 0
+    }
+  ],
+  "securitiesAdded": [
+    "T Rowe Price",
+    "JP Morgan",
+    "Morgan Stanley",
+    "Visa",
+    "Merck",
+    "Molina",
+    "Gartner",
+    "Microsoft",
+    "Nvidia",
+    "Arista",
+    "ASML",
+    "Intuit",
+    "Canadian NR",
+    "Canadian National Railway",
+    "Nestle",
+    "Unilever",
+    "Schlumberger"
+  ],
+  "securitiesRemoved": [
+    "Capital One",
+    "Citigroup",
+    "Brookfield",
+    "Synchrony Financial",
+    "Bristol Myers",
+    "Neurocrine",
+    "United Health",
+    "Check Point",
+    "Cisco",
+    "Fiserv",
+    "Oracle",
+    "Rio Tinto",
+    "RTX",
+    "Constellation",
+    "Halliburton"
+  ]
+}

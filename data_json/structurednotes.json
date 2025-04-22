@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "Metadata": "Value",
+    "As Of Date": "2025-03-31T00:00:00",
+    "Portfolio": "STRUCTURED NOTES",
+    "Classification": "-",
+    "Currency": "USD",
+    "Benchmark": "-"
+  },
+  "commentary": "Our structured note program continues to grow and there were 10 notes outstanding at the end of the quarter. The specific notes are detailed below. We believe these notes offer an attractive risk/reward relationship given their relatively high yields and short maturities. The chart below shows the notes that were outstanding as of March 31, 2025. Please contact your Advisor if you would like to receive additional information on any of the notes.",
+  "notes": [
+    {
+      "Pricing Date": "Friday April 18, 2025",
+      "Bank": "UBS",
+      "Ticker": "EXPE US",
+      "Short Name": "EXPEDIA GROUP IN",
+      "GICS Sector": "Consumer Discretionary",
+      "Coupon": 0.11
+    },
+    {
+      "Pricing Date": "Tuesday May 6, 2025",
+      "Bank": "JPM",
+      "Ticker": "CVS US",
+      "Short Name": "CVS HEALTH CORP",
+      "GICS Sector": "Health Care",
+      "Coupon": 0.1
+    },
+    {
+      "Pricing Date": "Saturday September 6, 2025",
+      "Bank": "UBS",
+      "Ticker": "DG US",
+      "Short Name": "DOLLAR GENERAL C",
+      "GICS Sector": "Consumer Staples",
+      "Coupon": 0.11
+    },
+    {
+      "Pricing Date": "Saturday October 25, 2025",
+      "Bank": "JPM",
+      "Ticker": "HAL US",
+      "Short Name": "HALLIBURTON CO",
+      "GICS Sector": "Energy",
+      "Coupon": 0.1
+    },
+    {
+      "Pricing Date": "Friday December 5, 2025",
+      "Bank": "Credit Agricole",
+      "Ticker": "PINS US",
+      "Short Name": "PINTEREST INC -A",
+      "GICS Sector": "Communication Services",
+      "Coupon": 0.08
+    },
+    {
+      "Pricing Date": "Wednesday December 17, 2025",
+      "Bank": "UBS",
+      "Ticker": "MRK US",
+      "Short Name": "MERCK & CO",
+      "GICS Sector": "Health Care",
+      "Coupon": 0.07
+    },
+    {
+      "Pricing Date": "Friday January 9, 2026",
+      "Bank": "BNP",
+      "Ticker": "LYFT US",
+      "Short Name": "LYFT INC-A",
+      "GICS Sector": "Industrials",
+      "Coupon": 0.12
+    },
+    {
+      "Pricing Date": "Friday January 9, 2026",
+      "Bank": "Soc Gen",
+      "Ticker": "LYFT US",
+      "Short Name": "LYFT INC-A",
+      "GICS Sector": "Industrials",
+      "Coupon": 0.07
+    },
+    {
+      "Pricing Date": "Friday February 13, 2026",
+      "Bank": "UBS",
+      "Ticker": "AES US",
+      "Short Name": "AES CORP",
+      "GICS Sector": "Utilities",
+      "Coupon": 0.11
+    },
+    {
+      "Pricing Date": "Thursday March 19, 2026",
+      "Bank": "Soc Gen",
+      "Ticker": "TGT US",
+      "Short Name": "TARGET CORP",
+      "GICS Sector": "Consumer Staples",
+      "Coupon": 0.09
+    }
+  ]
+}

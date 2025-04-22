@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "Metadata": "Value",
+    "As Of Date": "2025-03-31T00:00:00",
+    "Portfolio": "GROWTH",
+    "Classification": "GICS Sectors",
+    "Currency": "USD",
+    "Benchmark": "DM INDEX"
+  },
+  "commentary": "The Growth Model seeks to generate attractive, risk-adjusted total returns through a combination of capital appreciation and dividend income. The model invests in equity securities diversified by sector, geography, and market capitalization. Security selection and portfolio construction are driven by a fundamental, bottom-up investment process. The Growth Model maintains a style bias toward securities with higher growth rates or superior quality metrics relative to their sector or the broader market.\n\nThe Growth Model uses the MSCI World Index as a performance and risk management benchmark. This index measures the performance of more than 1,500 large- and mid-cap companies in 23 developed countries, capturing approximately 85% of the free float-adjusted market capitalization in each country. The index is market cap weighted, and its country and sector allocations evolve over time in response to differences in market performance and capital markets activity.\n\nRisk management plays a key role in portfolio construction and monitoring. Exposures across geography, sector, style factor, and market cap are monitored to ensure they remain within our risk tolerance guidelines. All investments involve risk, including possible loss of principal. Economic topics that could negatively impact returns include weak growth, rising interest rates, and high inflation. Investments in foreign securities involve additional risks, such as currency fluctuations, as well as economic and political uncertainty. Investments in small and/or newer companies are subject to further risks, as these securities can be especially volatile in the short term.\n",
+  "topTenHoldings": [
+    {
+      "rank": 1,
+      "name": "MICROSOFT CORP",
+      "weight": 3.0
+    },
+    {
+      "rank": 2,
+      "name": "NVIDIA CORP",
+      "weight": 2.8
+    },
+    {
+      "rank": 3,
+      "name": "VISA INC-CLASS A SHARES",
+      "weight": 2.1
+    },
+    {
+      "rank": 4,
+      "name": "SHERWIN-WILLIAMS CO/THE",
+      "weight": 2.1
+    },
+    {
+      "rank": 5,
+      "name": "BERKSHIRE HATHAWAY INC-CL B",
+      "weight": 2.1
+    },
+    {
+      "rank": 6,
+      "name": "AMERICAN EXPRESS CO",
+      "weight": 2.1
+    },
+    {
+      "rank": 7,
+      "name": "VICI PROPERTIES INC",
+      "weight": 2.1
+    },
+    {
+      "rank": 8,
+      "name": "CISCO SYSTEMS INC",
+      "weight": 2.1
+    },
+    {
+      "rank": 9,
+      "name": "BAKER HUGHES CO",
+      "weight": 2.1
+    },
+    {
+      "rank": 10,
+      "name": "NEXTERA ENERGY INC",
+      "weight": 2.0
+    }
+  ],
+  "regionalAllocation": [
+    {
+      "region": "North America",
+      "holdings": 61,
+      "weight": 90
+    },
+    {
+      "region": "Western Europe",
+      "holdings": 5,
+      "weight": 6.1
+    },
+    {
+      "region": "Asia Pacific",
+      "holdings": 2,
+      "weight": 2.5
+    },
+    {
+      "region": "South & Central America",
+      "holdings": 1,
+      "weight": 1.4
+    },
+    {
+      "region": "Africa / Middle East",
+      "holdings": 0,
+      "weight": 0
+    }
+  ],
+  "metrics": {
+    "portfolio": {
+      "Market Value(%)": 100,
+      "Div Yld": 1.8,
+      "P/E": 22.5,
+      "P/CF": 15.6,
+      "P/B": 4.3,
+      "Debt/Equity": 117.4,
+      "Current Ratio": 1.4,
+      "ROE": 20.6
+    },
+    "benchmark": {
+      "Market Value(%)": 100,
+      "Div Yld": 2.3,
+      "P/E": 20.1,
+      "P/CF": 14.8,
+      "P/B": 3.0,
+      "Debt/Equity": 140.2,
+      "Current Ratio": 1.2,
+      "ROE": 14.8
+    },
+    "difference": {
+      "Market Value(%)": 0,
+      "Div Yld": -0.51,
+      "P/E": 2.5,
+      "P/CF": 0.81,
+      "P/B": 1.2,
+      "Debt/Equity": -22.8,
+      "Current Ratio": 0.17,
+      "ROE": 5.8
+    }
+  },
+  "sectors": [
+    {
+      "sector": "Sector Name",
+      "total": "New Total (%)",
+      "diff": "Diff (%)"
+    },
+    {
+      "sector": "Financials",
+      "total": 17.0,
+      "diff": 1.0
+    },
+    {
+      "sector": "Healthcare",
+      "total": 11.5,
+      "diff": -0.5
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "total": 11.0,
+      "diff": 0
+    },
+    {
+      "sector": "Real Estate",
+      "total": 2,
+      "diff": 0
+    },
+    {
+      "sector": "Technology",
+      "total": 24.0,
+      "diff": 1.0
+    },
+    {
+      "sector": "Utilities",
+      "total": 3,
+      "diff": -1
+    },
+    {
+      "sector": "Industrials",
+      "total": 10,
+      "diff": 0
+    },
+    {
+      "sector": "Staples",
+      "total": 5.5,
+      "diff": -0.5
+    },
+    {
+      "sector": "Energy",
+      "total": 3.5,
+      "diff": -1.0
+    },
+    {
+      "sector": "Materials",
+      "total": 4,
+      "diff": 2
+    },
+    {
+      "sector": "Communications",
+      "total": 8.5,
+      "diff": -1
+    }
+  ],
+  "securitiesAdded": [
+    "Blackrock",
+    "Chubb",
+    "Schwab",
+    "Bank of America",
+    "Eli Lilly",
+    "Novo Nordisk",
+    "AstraZeneca",
+    "Toyota",
+    "TJX",
+    "Lululemon",
+    "ASML",
+    "Advanced Micro",
+    "Arista Networks",
+    "Amphenol",
+    "Intuit",
+    "Motorola Solutions",
+    "Synopsys",
+    "Qualcomm",
+    "Sea",
+    "Live Nation",
+    "Pinterest",
+    "Sempra",
+    "Steel Dynamics",
+    "Vulcan Materials",
+    "Uber",
+    "Eaton",
+    "WW Grainger",
+    "AMETEK",
+    "Vertiv",
+    "Cheniere Energy",
+    "Post Holdings"
+  ],
+  "securitiesRemoved": [
+    "Interactive Brokers",
+    "Square",
+    "United Health",
+    "Adobe",
+    "Salesforce",
+    "Amdocs",
+    "Disney",
+    "First Energy",
+    "Airbus",
+    "L3 Harris",
+    "Haliburton"
+  ]
+}

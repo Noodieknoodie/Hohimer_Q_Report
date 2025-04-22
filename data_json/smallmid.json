@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "Metadata": "Value",
+    "As Of Date": "2025-03-31T00:00:00",
+    "Portfolio": "CORE",
+    "Classification": "-",
+    "Currency": "USD",
+    "Benchmark": "Russell 2000"
+  },
+  "commentary": "The Small Cap Model seeks to generate attractive risk-adjusted total returns through a combination of capital appreciation and dividend income.  The Model invests in equity securities that are diversified by sector, geography, and market capitalization.  Security selection and portfolio construction are driven by a fundamental, bottom-up investment process.  The Small Cap Model has a style bias to securities that have lower valuations or higher quality metrics relative to their sector or the broader market. \n\nThe Small Cap Model uses the Russell 2000 as a performance and risk management benchmark.  The Russell 2000 of the smallest 2000 companies in the Russell 3000 Index.  This index is market cap weighted and its individual company and sector weightings change over time.  All investments involve risks, including possible loss of principal.  Economic risks that could negatively impact returns include weak economic growth, rising interest rates and high levels of inflation.  Investments in foreign securities involve special risks, including currency fluctuations and economic as well as political uncertainty.  Investments in small and/or relatively new companies involve additional risks, as the price of these securities can be volatile, especially over the short term.   ",
+  "topTenHoldings": [
+    {
+      "rank": 1,
+      "name": "BERRY GLOBAL GROUP INC",
+      "weight": 2.3
+    },
+    {
+      "rank": 2,
+      "name": "SILGAN HOLDINGS INC",
+      "weight": 2.1
+    },
+    {
+      "rank": 3,
+      "name": "ANI PHARMACEUTICALS INC",
+      "weight": 2.0
+    },
+    {
+      "rank": 4,
+      "name": "LOUISIANA-PACIFIC CORP",
+      "weight": 1.9
+    },
+    {
+      "rank": 5,
+      "name": "PALOMAR HOLDINGS INC",
+      "weight": 1.8
+    },
+    {
+      "rank": 6,
+      "name": "OSI SYSTEMS INC",
+      "weight": 1.8
+    },
+    {
+      "rank": 7,
+      "name": "CATALYST PHARMACEUTICALS INC",
+      "weight": 1.8
+    },
+    {
+      "rank": 8,
+      "name": "ALKERMES PLC",
+      "weight": 1.7
+    },
+    {
+      "rank": 9,
+      "name": "AMEDISYS INC",
+      "weight": 1.7
+    },
+    {
+      "rank": 10,
+      "name": "MUELLER INDUSTRIES INC",
+      "weight": 1.6
+    }
+  ],
+  "metrics": {
+    "portfolio": {
+      "Market Value (%)": 100,
+      "Div Yld": 2.7,
+      "P/E": 12.5,
+      "P/CF": 8.8,
+      "ROE": 12.4,
+      "Sales Gr": 5.9
+    },
+    "benchmark": {
+      "Market Value (%)": 100,
+      "Div Yld": 3.0,
+      "P/E": 46.0,
+      "P/CF": 12.5,
+      "ROE": 0.31,
+      "Sales Gr": 0.84
+    },
+    "difference": {
+      "Market Value (%)": 0,
+      "Div Yld": -0.31,
+      "P/E": -53.4,
+      "P/CF": -3.6,
+      "ROE": 12.1,
+      "Sales Gr": 5.0
+    }
+  }
+}
