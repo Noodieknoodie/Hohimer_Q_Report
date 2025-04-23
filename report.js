@@ -73,7 +73,6 @@ function renderGrowthModel(data, formatDate) {
     renderMetricsTable('growth-metrics', data.metrics);
     renderHoldings('growth-holdings', data.topTenHoldings);
     renderSectors('growth-sectors', data.sectors);
-    renderSectorBenchmark('growth-sectors-vs-benchmark', data.sectors);
     renderRegionalExposure('growth-regions', data.regionalAllocation);
     renderSecurities('growth-added', data.securitiesAdded, false);
     renderSecurities('growth-removed', data.securitiesRemoved, true);
@@ -88,7 +87,6 @@ function renderCoreModel(data, formatDate) {
     renderHoldings('core-holdings', data.topTenHoldings);
     if (data.sectors) renderSectors('core-sectors', data.sectors);
     if (data.regionalAllocation) renderRegionalExposure('core-regions', data.regionalAllocation);
-    if (data.sectors) renderSectorBenchmark('core-sectors-vs-benchmark', data.sectors);
     renderSecurities('core-added', data.securitiesAdded, false);
     renderSecurities('core-removed', data.securitiesRemoved, true);
 }
@@ -164,7 +162,7 @@ function renderMetricsTable(elementId, metrics) {
         const benchmarkVal = metrics.benchmark ? metrics.benchmark[key] : null;
         const diffVal = metrics.difference ? metrics.difference[key] : null;
 
-        const formatValue = (val) => (val !== null && val !== undefined) ? val.toFixed(2) : '--';
+        const formatValue = (val) => (val !== null && val !== undefined) ? val.toFixed(1) : '--';
         const diffClass = (diffVal !== null && diffVal !== undefined) ? (diffVal > 0 ? 'positive' : (diffVal < 0 ? 'negative' : '')) : '';
 
         html += `
@@ -190,7 +188,7 @@ function renderHoldings(elementId, holdings) {
         html += `
             <div class="holding-row">
                 <div class="holding-name">${holding.name || ''}</div>
-                <div class="holding-value">${weight.toFixed(2)}%</div>
+                <div class="holding-value">${weight.toFixed(1)}%</div>
                 <div class="bar-container">
                     <div class="bar" style="width: ${widthPercent}%;"></div>
                 </div>
@@ -243,7 +241,7 @@ function renderSectors(elementId, sectors) {
             colHtml += `
                 <div class="sector-row">
                     <div class="sector-name">${sector.sector || sector.name || 'N/A'}</div>
-                    <div class="sector-value">${(sector.total || 0).toFixed(2)}%</div>
+                    <div class="sector-value">${(sector.total || 0).toFixed(1)}%</div>
                     <div class="sector-holdings">${holdingsDisplay}</div>
                     <div class="sector-bar-container">
                         <div class="sector-bar ${gradientClass}" style="width: ${widthPercent}%;"></div>
@@ -256,59 +254,6 @@ function renderSectors(elementId, sectors) {
     };
     
     element.innerHTML = generateHtml(leftSectors) + generateHtml(rightSectors);
-}
-
-function renderSectorBenchmark(elementId, sectors) {
-    const element = document.getElementById(elementId);
-     if (!element || !sectors || sectors.length <= 1) {
-        if(element) element.innerHTML = '<p>Sector benchmark data not available.</p>';
-        return;
-    }
-
-    const sectorData = sectors.slice(1).filter(s => s && s.diff !== undefined && s.diff !== null);
-     if (!sectorData.length) {
-        if(element) element.innerHTML = '<p>Sector benchmark data not available.</p>';
-        return;
-    }
-
-    const top6Sectors = [...sectorData]
-        .sort((a, b) => Math.abs(b.diff || 0) - Math.abs(a.diff || 0))
-        .slice(0, 6);
-
-    if (!top6Sectors.length) {
-         if(element) element.innerHTML = '<p>Sector benchmark data not available.</p>';
-         return;
-    }
-
-    const maxAbsDiff = Math.max(0.01, ...top6Sectors.map(s => Math.abs(s.diff || 0))); // Avoid division by zero
-
-    let html = '';
-    top6Sectors.forEach(sector => {
-        const diff = sector.diff || 0;
-        const diffPrefix = diff > 0 ? '+' : '';
-        const diffClass = diff > 0 ? 'positive' : (diff < 0 ? 'negative' : '');
-        const isNegative = diff < 0;
-        const minBarWidth = 5;
-        const maxBarWidth = 95;
-        const scaledWidth = minBarWidth + (maxBarWidth - minBarWidth) * (Math.abs(diff) / maxAbsDiff);
-
-        html += `
-            <div class="sector-metric">
-                <div class="sector-metric-header">
-                    <span>${sector.sector || sector.name || 'N/A'}</span>
-                    <span class="${diffClass}">${diffPrefix}${diff.toFixed(2)}%</span>
-                </div>
-                <div class="bar-container-bench">
-                    ${isNegative ?
-                      `<div class="bar-negative" style="width: ${scaledWidth}%;"></div>` :
-                      `<div class="bar-positive" style="width: ${scaledWidth}%;"></div>`
-                    }
-                </div>
-                <div class="sector-allocation">Port: ${sector.total?.toFixed(2) || '0.00'}%</div>
-            </div>
-        `;
-    });
-    element.innerHTML = html;
 }
 
 function renderRegionalExposure(elementId, regions) {
@@ -326,7 +271,7 @@ function renderRegionalExposure(elementId, regions) {
 
     const sortedRegions = [...validRegions].sort((a, b) => (b.weight || 0) - (a.weight || 0));
     const dominantRegion = sortedRegions[0];
-    const dominantPercent = dominantRegion.weight?.toFixed(2) || '0.00';
+    const dominantPercent = dominantRegion.weight?.toFixed(1) || '0.0';
     const dominantName = dominantRegion.region || '';
 
     // Standard colors for regions
@@ -344,7 +289,7 @@ function renderRegionalExposure(elementId, regions) {
     sortedRegions.forEach((region, index) => {
         if (!region.weight) return;
         const color = regionColors[index % regionColors.length];
-        html += `<div style="width: ${region.weight}%; height: 100%; background: ${color};" title="${region.region}: ${region.weight.toFixed(2)}%"></div>`;
+        html += `<div style="width: ${region.weight}%; height: 100%; background: ${color};" title="${region.region}: ${region.weight.toFixed(1)}%"></div>`;
     });
     html += '</div>';
 
@@ -364,7 +309,7 @@ function renderRegionalExposure(elementId, regions) {
                     <div class="region-color-dot ${colorClass}"></div>
                     <span class="region-name">${shortName}</span>
                 </div>
-                <div class="region-weight">${region.weight?.toFixed(2) || '0.00'}%</div>
+                <div class="region-weight">${region.weight?.toFixed(1) || '0.0'}%</div>
                 <div class="region-holdings">${holdingsText}</div>
             </div>
         `;
