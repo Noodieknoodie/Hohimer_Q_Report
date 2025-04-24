@@ -103,8 +103,8 @@ def parse_financial_models(file_path):
         if positions_name in wb:
             positions = wb[positions_name]
             
-            # Only extract sectors for Growth and Core models
-            if prefix == "growth" or prefix == "core":
+            # Extract sectors for Growth, Core, and SmallMid models
+            if prefix == "growth" or prefix == "core" or prefix == "smid":
                 model_data["sectors"] = extract_sectors(positions)
             
             # Add securities for Core and Growth models only

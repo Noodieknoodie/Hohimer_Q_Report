@@ -411,13 +411,13 @@ body {
 }
 
 /* Sector bar styling - use flat colors based on weight for better print results */
-.gradient-1 { background: #bfdbfe; } /* Light blue */
-.gradient-2 { background: #93c5fd; } /* Medium light blue */
-.gradient-3 { background: #60a5fa; } /* Medium blue */
-.gradient-4 { background: #3b82f6; } /* Standard blue */
-.gradient-5 { background: #2563eb; } /* Darker blue */
-.gradient-6 { background: #1d4ed8; } /* Deep blue */
-.gradient-7 { background: #1e40af; } /* Very dark blue */
+.gradient-1 { background: #bfdbfe; } 
+.gradient-2 { background: #93c5fd; } 
+.gradient-3 { background: #60a5fa; }
+.gradient-4 { background: #3b82f6; }
+.gradient-5 { background: #2563eb; }
+.gradient-6 { background: #1d4ed8; }
+.gradient-7 { background: #1e40af; }
 
 .cover-page {
   width: var(--page-width);
@@ -440,25 +440,94 @@ body {
 .index-page {
   display: flex;
   flex-direction: column;
-  padding-top: 1.5in;
-  padding-left: 0.5in;
-  padding-right: 0.5in;
+  padding: var(--page-padding-top) var(--page-padding-sides) var(--page-padding-bottom);
 }
-.index-title {
+
+/* Split layout styles */
+.hamburger-layout {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 80px);
+}
+
+.recap-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.divider {
+  height: 1px;
+  background-color: var(--color-gray-200);
+  margin: 0;
+  width: 100%;
+}
+
+.toc-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.content-title {
   font-size: var(--font-size-2xl);
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: var(--color-black);
+  text-align: center;
 }
-.index-list { list-style-type: none; }
+
+.index-list { 
+  list-style-type: none;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .index-item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-size: var(--font-size-md);
   color: var(--color-gray-800);
 }
-.index-item span:last-child { font-weight: 600; }
+
+.index-item span:last-child { 
+  font-weight: 600;
+}
+
+.recap-date {
+  font-size: var(--font-size-md);
+  color: var(--color-gray-700);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.recap-content {
+  background: var(--color-gray-50);
+  border-radius: var(--border-radius-lg);
+  padding: 20px;
+  border: 1px solid var(--color-gray-200);
+  width: 85%;
+  margin: 0 auto;
+}
+
+.recap-text {
+  font-size: var(--font-size-lg);
+  line-height: 1.5;
+  color: var(--color-gray-800);
+  text-align: justify;
+}
+
+/* Remove all deprecated styles */
+.index-title, .toc-container, .recap-container, .recap-title, 
+.recap-divider, .recap-commentary, .toc-recap-container,
+.toc-column, .recap-column {
+  display: none;
+}
 
 .alt-section { margin-bottom: 8px; page-break-inside: avoid; break-inside: avoid; }
 .alt-title {
@@ -618,17 +687,7 @@ body {
   }
 }
 
-/* Clean up Capital Markets Recap page styles */
-.page:nth-of-type(3) .commentary-section {
-  padding: 10px;
-}
 
-.page:nth-of-type(3) .commentary-text {
-  column-count: 2;
-  column-gap: 20px;
-}
-
-/* Remove the obsolete section rule */
 .section + .section {
   margin-top: 0;
 }

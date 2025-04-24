@@ -55,7 +55,13 @@ async function loadData() {
 function renderCapitalMarketsRecap(data, formatDate) {
     const asOfDateEl = document.getElementById('recap-date');
     if (asOfDateEl) asOfDateEl.textContent = '03/31/25'; // Keep hardcoded as per original
-    renderCommentary('market-recap', data.capitalMarketsRecap);
+    
+    const element = document.getElementById('market-recap');
+    if (element && data.capitalMarketsRecap) {
+        element.innerHTML = `<p>${data.capitalMarketsRecap}</p>`;
+    } else if (element) {
+        element.innerHTML = '<p>Market recap information not available.</p>';
+    }
 }
 
 function renderDisclaimer(disclaimerText) {
@@ -97,6 +103,7 @@ function renderSmidModel(data, formatDate) {
     renderCommentary('smid-commentary', data.commentary);
     if (data.metrics) renderMetricsTable('smid-metrics', data.metrics);
     renderHoldings('smid-holdings', data.topTenHoldings);
+    if (data.sectors) renderSectors('smid-sectors', data.sectors);
 }
 
 function renderAltModel(data, formatDate) {

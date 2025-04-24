@@ -534,7 +534,69 @@
         "ROE": 12.1,
         "Sales Gr": 5.0
       }
-    }
+    },
+    "sectors": [
+      {
+        "sector": "Sector Name",
+        "total": "New Total (%)",
+        "diff": "Diff (%)"
+      },
+      {
+        "sector": "Financials",
+        "total": 17.7,
+        "diff": 17.7
+      },
+      {
+        "sector": "Healthcare",
+        "total": 17.5,
+        "diff": 17.5
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "total": 10.7,
+        "diff": 10.7
+      },
+      {
+        "sector": "Real Estate",
+        "total": 6.8,
+        "diff": 6.8
+      },
+      {
+        "sector": "Technology",
+        "total": 13.4,
+        "diff": 13.4
+      },
+      {
+        "sector": "Utilities",
+        "total": 1.3,
+        "diff": 1.3
+      },
+      {
+        "sector": "Industrials",
+        "total": 13.7,
+        "diff": 13.7
+      },
+      {
+        "sector": "Staples",
+        "total": 2.8,
+        "diff": 2.8
+      },
+      {
+        "sector": "Energy",
+        "total": 7.9,
+        "diff": 7.9
+      },
+      {
+        "sector": "Materials",
+        "total": 6.5,
+        "diff": 6.5
+      },
+      {
+        "sector": "Communications",
+        "total": 1.8,
+        "diff": 1.8
+      }
+    ]
   },
   "Alternatives": {
     "metadata": {
