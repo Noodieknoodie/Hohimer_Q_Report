@@ -14,25 +14,14 @@
             margin: 0;
             padding: 0;
         }
-        /* Remove any potential space before first element */
         body > :first-child:not(#error-message) {
             margin-top: 0;
             padding-top: 0;
         }
-        #error-message {
-            display: none; /* Hide error message unless needed */
-        }
-        /* Ensure cover page doesn't create an extra page */
-        .cover-page {
-            page-break-after: always;
-            break-after: page;
-            page-break-before: avoid;
-            break-before: avoid;
-        }
     </style>
 </head>
 <body>
-    <div id="error-message" style="color: red; padding: 20px; display: none;"></div>
+    <div id="error-message" class="error-message"></div>
 
     <div class="cover-page">
         <img src="Q1_COVER.png" alt="Hohimer Wealth Management">
@@ -131,7 +120,7 @@
     <div class="page">
         <header class="header">
             <div class="header-left">
-                <h1 class="model-title">Growth Model <span style="font-weight: 400; color: var(--color-gray-700); font-size: 18px;">continued</span></h1>
+                <h1 class="model-title">Growth Model <span class="model-title-continued">continued</span></h1>
             </div>
             <div class="header-right">
                 <p>Portfolio: GROWTH</p>
@@ -219,7 +208,7 @@
     <div class="page">
         <header class="header">
             <div class="header-left">
-                <h1 class="model-title">Core Model <span style="font-weight: 400; color: var(--color-gray-700); font-size: 18px;">continued</span></h1>
+                <h1 class="model-title">Core Model <span class="model-title-continued">continued</span></h1>
             </div>
             <div class="header-right">
                 <p>Portfolio: CORE</p>
